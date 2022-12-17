@@ -17,82 +17,146 @@
             "3": {
                 "str": 3,
                 "melee": -3,
-                "openDoors": "1-in-6"
+                "openDoors": {
+                    "description": "1-in-6",
+                    "value": 1,
+                    "in": 6
+                }
             },
             "4": {
                 "str": 4,
                 "melee": -2,
-                "openDoors": "1-in-6"
+                "openDoors": {
+                    "description": "1-in-6",
+                    "value": 1,
+                    "in": 6
+                }
             },
             "5": {
                 "str": 5,
                 "melee": -2,
-                "openDoors": "1-in-6"
+                "openDoors": {
+                    "description": "1-in-6",
+                    "value": 1,
+                    "in": 6
+                }
             },
             "6": {
                 "str": 6,
                 "melee": -1,
-                "openDoors": "1-in-6"
+                "openDoors": {
+                    "description": "1-in-6",
+                    "value": 1,
+                    "in": 6
+                }
             },
             "7": {
                 "str": 7,
                 "melee": -1,
-                "openDoors": "1-in-6"
+                "openDoors": {
+                    "description": "1-in-6",
+                    "value": 1,
+                    "in": 6
+                }
             },
             "8": {
                 "str": 8,
                 "melee": -1,
-                "openDoors": "1-in-6"
+                "openDoors": {
+                    "description": "1-in-6",
+                    "value": 1,
+                    "in": 6
+                }
             },
             "9": {
                 "str": 9,
                 "melee": 0,
-                "openDoors": "2-in-6"
+                "openDoors": {
+                    "description": "2-in-6",
+                    "value": 2,
+                    "in": 6
+                }
             },
             "10": {
                 "str": 10,
                 "melee": 0,
-                "openDoors": "2-in-6"
+                "openDoors": {
+                    "description": "2-in-6",
+                    "value": 2,
+                    "in": 6
+                }
             },
             "11": {
                 "str": 11,
                 "melee": 0,
-                "openDoors": "2-in-6"
+                "openDoors": {
+                    "description": "2-in-6",
+                    "value": 2,
+                    "in": 6
+                }
             },
             "12": {
                 "str": 12,
                 "melee": 0,
-                "openDoors": "2-in-6"
+                "openDoors": {
+                    "description": "2-in-6",
+                    "value": 2,
+                    "in": 6
+                }
             },
             "13": {
                 "str": 13,
                 "melee": 1,
-                "openDoors": "3-in-6"
+                "openDoors": {
+                    "description": "3-in-6",
+                    "value": 3,
+                    "in": 6
+                }
             },
             "14": {
                 "str": 14,
                 "melee": 1,
-                "openDoors": "3-in-6"
+                "openDoors": {
+                    "description": "3-in-6",
+                    "value": 3,
+                    "in": 6
+                }
             },
             "15": {
                 "str": 15,
                 "melee": 1,
-                "openDoors": "3-in-6"
+                "openDoors": {
+                    "description": "3-in-6",
+                    "value": 3,
+                    "in": 6
+                }
             },
             "16": {
                 "str": 16,
                 "melee": 2,
-                "openDoors": "4-in-6"
+                "openDoors": {
+                    "description": "4-in-6",
+                    "value": 4,
+                    "in": 6
+                }
             },
             "17": {
                 "str": 17,
                 "melee": 2,
-                "openDoors": "4-in-6"
+                "openDoors": {
+                    "description": "4-in-6",
+                    "value": 4,
+                    "in": 6
+                }
             },
             "18": {
                 "str": 18,
                 "melee": 3,
-                "openDoors": "5-in-6"
+                "openDoors": {
+                    "description": "5-in-6",
+                    "value": 5,
+                    "in": 6
+                }
             }
         }
     }
