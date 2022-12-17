@@ -1,0 +1,25 @@
+{
+    "name": "Thief",
+    "demihumanClass": false,
+    "requirements": "None",
+    "primeRequisite": "DEX",
+    "hitDice": "1d4",
+    "maximumLevel": 14,
+    "armour": "Leather, no shields",
+    "weapons": "Any",
+    "languages": "Alignment, Common",
+    "skills": {
+        "1": {
+            "name": "Back-stab"
+        },
+        "2": {
+            "name": "Read Languages"
+        },
+        "3": {
+            "name": "Scroll Use"
+        },
+        "4": {
+            "name": "Thief Skills"
+        }
+    }
+}

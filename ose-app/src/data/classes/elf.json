@@ -1,0 +1,28 @@
+{
+    "name": "Elf",
+    "demihumanClass": true,
+    "requirements": "Minimum INT 9",
+    "primeRequisite": "INT and STR",
+    "hitDice": "1d6",
+    "maximumLevel": 10,
+    "armour": "Any, including shields",
+    "weapons": "Any",
+    "languages": "Alignment, Common, Elvish, Gnoll, Hobgoblin, Orcish",
+    "skills": {
+        "1": {
+            "name": "Arcane Magic"
+        },
+        "2": {
+            "name": "Detect Secret Doors"
+        },
+        "3": {
+            "name": "Immunity to Ghoul Paralysis"
+        },
+        "4": {
+            "name": "Infravision"
+        },
+        "5": {
+            "name": "Listening at Doors"
+        }
+    }
+}

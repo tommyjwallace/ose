@@ -1,0 +1,31 @@
+{
+    "name": "Halfling",
+    "demihumanClass": true,
+    "requirements": "Minimum CON 9, minimum DEX 9",
+    "primeRequisite": "DEX and STR",
+    "hitDice": "1d6",
+    "maximumLevel": 8,
+    "armour": "Any appropriate to size, including shields",
+    "weapons": "Any appropriate to size",
+    "languages": "Alignment, Common, Halfling",
+    "skills": {
+        "1": {
+            "name": "Defensive Bonus"
+        },
+        "2": {
+            "name": "Hiding"
+        },
+        "3": {
+            "name": "Initiative Bonus (Optional Rule)"
+        },
+        "4": {
+            "name": "Listening at Doors"
+        },
+        "5": {
+            "name": "Missile Attack Bonus"
+        },
+        "6": {
+            "name": "Stronghold"
+        }
+    }
+}

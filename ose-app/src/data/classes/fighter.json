@@ -1,0 +1,16 @@
+{
+    "name": "Fighter",
+    "demihumanClass": false,
+    "requirements": "None",
+    "primeRequisite": "STR",
+    "hitDice": "1d8",
+    "maximumLevel": 14,
+    "armour": "Any, including shields",
+    "weapons": "Any",
+    "languages": "Alignment, Common",
+    "skills": {
+        "1": {
+            "name": "Stronghold"
+        }
+    }
+}
