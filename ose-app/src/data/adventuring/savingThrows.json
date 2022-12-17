@@ -1,0 +1,84 @@
+{
+    "name": "Saving Throws",
+    "description": "All characters and monsters can make saving throws to avoid the full effects of certain magical or special attacks.",
+    "categories": {
+        "name": "Categories",
+        "description": "There are five saving throw categories, used in the following situations:",
+        "categories": {
+            "d": {
+                "name": "Death or Poison",
+                "abbreviated": "D",
+                "description": "When targeted by a death ray or exposed to poison."
+            },
+            "w": {
+                "name": "Wands",
+                "abbreviated": "W",
+                "description": "When targeted by an effect from a magical wand."
+            },
+            "p": {
+                "name": "Paralysis or Petrification",
+                "abbreviated": "P",
+                "description": "When targeted by an effect that paralyses or turns to stone."
+            },
+            "b": {
+                "name": "Breath Attacks",
+                "abbreviated": "B",
+                "description": "When targeted by the breath of a dragon (or other monster with a breath attack)."
+            },
+            "s": {
+                "name": "Spells, Rods, or Staves",
+                "abbreviated": "S",
+                "description": "When targeted by a baneful spell or an effect from a magical rod or staff."
+            }
+        }
+    },
+    "whenToRollaSavingThrow": {
+        "name": "When to Roll a Saving Throw",
+        "description": "The appropriate saving throw to make and the effects of a success or failure are indicated in the description of the spell, monster attack, or adventure scenario."
+    },
+    "rollingaSavingThrow": {
+        "name": "Rolling a Saving Throw",
+        "description": "When affected by a spell or attack form which requires a saving throw, the player or referee must roll 1d20 and compare the result to the appropriate saving throw value.",
+        "die": {
+            "description": "1d20",
+            "count": 1,
+            "dieType": 20
+        },
+        "results": {
+            "success": {
+                "name": "Greater or equal",
+                "description": "A result that is greater than or equal to the saving throw value is a success."
+            },
+            "falure": {
+                "name": "Lower",
+                "description": "A result of less than the saving throw value is a failure."
+            }
+        }
+    },
+    "successfulSaves": {
+        "name": "Successful Saves",
+        "effects": {
+            "1": {
+                "name": "Damaging effects",
+                "description": "A successful save against an effect that causes damage means that the damage is halved.",
+                "multiplier": 0.5
+            },
+            "2": {
+                "name": "Other effects",
+                "description": "A successful saving throw against an effect that does not cause damage means the effect has been entirely avoided or negated.",
+                "multiplier": 0
+            }
+        }
+    },
+    "savingThrowsVersesPoison": {
+        "name": "Saving Throws Versus Poison",
+        "failure": {
+            "name": "Failure",
+            "description": "A failed save against poison is usually fatal."
+        },
+        "damage": {
+            "name": "Damage",
+            "description": "If a poisonous attack also inflicts damage, the damage is not affected by the success or failure of the saving throw."
+        }
+    }
+}

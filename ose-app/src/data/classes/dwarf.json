@@ -1,0 +1,366 @@
+{
+    "name": "Dwarf",
+    "demihumanClass": true,
+    "description": "Dwarves are stout, bearded demihumans, about 4' tall and weighing about 150 pounds. Dwarves typically live underground and love fine craftsmanship, gold, hearty food, and strong drink. They have skin, hair, and eye colours in earth tones. Dwarves are known for their stubbornness and practicality. They are a hardy people and have a strong resistance to magic, as reflected in their saving throws.",
+    "requirements": {
+        "description": "Minimum CON 9",
+        "abilityScores": {
+            "str": 0,
+            "int": 0,
+            "wis": 0,
+            "dex": 0,
+            "con": 9,
+            "cha": 0
+        }
+    },
+    "primeRequisite": {
+        "description": "STR",
+        "abilities": {
+            "str": true,
+            "int": false,
+            "wis": false,
+            "dex": false,
+            "con": false,
+            "cha": false
+        }
+    },
+    "hitDice": {
+        "description": "1d8",
+        "count": 1,
+        "dieType": 8
+    },
+    "maximumLevel": 12,
+    "armour": {
+        "description": "Any, including shields"
+    },
+    "weapons": {
+        "description": "Small or normal sized"
+    },
+    "languages": {
+        "1": "Alignment",
+        "2": "Common",
+        "3": "Dwarvish",
+        "4": "Gnomish",
+        "5": "Goblin",
+        "6": "Kobold"
+    },
+    "skills": {
+        "1": {
+            "name": "Combat",
+            "description": "Dwarves can use all types of armour. Due to their short height, dwarves can only use small or normal sized weapons. They cannot use longbows or two-handed swords."
+        },
+        "2": {
+            "name": "Detect Construction Tricks",
+            "description": "As expert miners, dwarves have a 2-in-6 chance of being able to detect new construction, sliding walls, or sloping passages when searching.",
+            "value": 2,
+            "in": 6
+        },
+        "3": {
+            "name": "Detect Room Traps",
+            "description": "Due to their expertise with construction, dwarves have a 2-in-6 chance of detecting non-magical room traps when searching."
+        },
+        "4": {
+            "name": "Infravision",
+            "description": "Dwarves have infravision to 60'.",
+            "value": 60,
+            "unit": "feet"
+        },
+        "5": {
+            "name": "Listening at Doors",
+            "description": "Dwarves have a 2-in-6 chance of hearing noises.",
+            "value": 2,
+            "in": 6
+        },
+        "6": {
+            "name": "Create Stronghold",
+            "description": "A dwarf has the option of creating an underground stronghold that will attract dwarves from far and wide. Dwarves usually live in clans, so dwarves of the character's clan will be attracted to live under their roof. Dwarves from other clans will generally be friendly and clans may collaborate in times of war or disaster.",
+            "requirements": {
+                "level": 9,
+                "mercenaries": {
+                    "description": "A dwarf ruler may only hire dwarven mercenaries. Specialists and retainers of any race may be hired.",
+                    "mercenaryType": "dwarven",
+                    "specialistType": "any",
+                    "retainerType": "any"
+                }
+            }
+        }
+    },
+    "progression": {
+        "1": {
+            "level": 1,
+            "xp": 0,
+            "hitDice": {
+                "description": "1d8",
+                "note": null,
+                "count": 1,
+                "dieType": 8,
+                "bonus": 0,
+                "modifierBonus": true
+            },
+            "thac0": {
+                "value": 19,
+                "bonus": 0
+            },
+            "savingThrows": {
+                "d": 8,
+                "w": 9,
+                "p": 10,
+                "b": 13,
+                "s": 12
+            }
+        }
+    },
+    "2": {
+        "level": 2,
+        "xp": 2200,
+        "hitDice": {
+            "description": "2d8",
+            "note": null,
+            "count": 2,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 19,
+            "bonus": 0
+        },
+        "savingThrows": {
+            "d": 8,
+            "w": 9,
+            "p": 10,
+            "b": 13,
+            "s": 12
+        }
+    },
+    "3": {
+        "level": 3,
+        "xp": 4400,
+        "hitDice": {
+            "description": "3d8",
+            "note": null,
+            "count": 3,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 19,
+            "bonus": 0
+        },
+        "savingThrows": {
+            "d": 8,
+            "w": 9,
+            "p": 10,
+            "b": 13,
+            "s": 12
+        }
+    },
+    "4": {
+        "level": 4,
+        "xp": 8800,
+        "hitDice": {
+            "description": "4d8",
+            "note": null,
+            "count": 4,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 17,
+            "bonus": 2
+        },
+        "savingThrows": {
+            "d": 6,
+            "w": 7,
+            "p": 8,
+            "b": 10,
+            "s": 10
+        }
+    },
+    "5": {
+        "level": 5,
+        "xp": 17000,
+        "hitDice": {
+            "description": "5d8",
+            "note": null,
+            "count": 5,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 17,
+            "bonus": 2
+        },
+        "savingThrows": {
+            "d": 6,
+            "w": 7,
+            "p": 8,
+            "b": 10,
+            "s": 10
+        }
+    },
+    "6": {
+        "level": 6,
+        "xp": 35000,
+        "hitDice": {
+            "description": "6d8",
+            "note": null,
+            "count": 6,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 17,
+            "bonus": 2
+        },
+        "savingThrows": {
+            "d": 6,
+            "w": 7,
+            "p": 8,
+            "b": 10,
+            "s": 10
+        }
+    },
+    "7": {
+        "level": 7,
+        "xp": 70000,
+        "hitDice": {
+            "description": "7d8",
+            "note": null,
+            "count": 7,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 14,
+            "bonus": 5
+        },
+        "savingThrows": {
+            "d": 4,
+            "w": 5,
+            "p": 6,
+            "b": 7,
+            "s": 8
+        }
+    },
+    "8": {
+        "level": 8,
+        "xp": 140000,
+        "hitDice": {
+            "description": "8d8",
+            "note": null,
+            "count": 8,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 14,
+            "bonus": 5
+        },
+        "savingThrows": {
+            "d": 4,
+            "w": 5,
+            "p": 6,
+            "b": 7,
+            "s": 8
+        }
+    },
+    "9": {
+        "level": 9,
+        "xp": 270000,
+        "hitDice": {
+            "description": "9d8",
+            "note": null,
+            "count": 9,
+            "dieType": 8,
+            "bonus": 0,
+            "modifierBonus": true
+        },
+        "thac0": {
+            "value": 14,
+            "bonus": 5
+        },
+        "savingThrows": {
+            "d": 4,
+            "w": 5,
+            "p": 6,
+            "b": 7,
+            "s": 8
+        }
+    },
+    "10": {
+        "level": 10,
+        "xp": 400000,
+        "hitDice": {
+            "description": "9d8+3*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 8,
+            "bonus": 3,
+            "modifierBonus": false
+        },
+        "thac0": {
+            "value": 12,
+            "bonus": 7
+        },
+        "savingThrows": {
+            "d": 2,
+            "w": 3,
+            "p": 4,
+            "b": 4,
+            "s": 6
+        }
+    },
+    "11": {
+        "level": 11,
+        "xp": 530000,
+        "hitDice": {
+            "description": "9d8+6*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 8,
+            "bonus": 6,
+            "modifierBonus": false
+        },
+        "thac0": {
+            "value": 12,
+            "bonus": 7
+        },
+        "savingThrows": {
+            "d": 2,
+            "w": 3,
+            "p": 4,
+            "b": 4,
+            "s": 6
+        }
+    },
+    "12": {
+        "level": 12,
+        "xp": 660000,
+        "hitDice": {
+            "description": "9d8+9*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 8,
+            "bonus": 9,
+            "modifierBonus": false
+        },
+        "thac0": {
+            "value": 12,
+            "bonus": 7
+        },
+        "savingThrows": {
+            "d": 2,
+            "w": 3,
+            "p": 4,
+            "b": 4,
+            "s": 6
+        }
+    }
+}

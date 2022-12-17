@@ -26,7 +26,7 @@
     },
     "hitDice": {
         "description": "1d6",
-        "amount": 1,
+        "count": 1,
         "dieType": 6
     },
     "maximumLevel": 14,
@@ -81,10 +81,11 @@
             "xp": 0,
             "hitDice": {
                 "description": "1d6",
-                "modifierBonus": true,
+                "note": null,
+                "count": 1,
+                "dieType": 6,
                 "bonus": 0,
-                "amount": 1,
-                "dieType": 6
+                "modifierBonus": true
             },
             "thac0": {
                 "value": 19,
@@ -111,10 +112,11 @@
         "xp": 1500,
         "hitDice": {
             "description": "2d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 2,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 2,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 19,
@@ -140,10 +142,11 @@
         "xp": 3000,
         "hitDice": {
             "description": "3d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 3,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 3,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 19,
@@ -169,10 +172,11 @@
         "xp": 6000,
         "hitDice": {
             "description": "4d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 4,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 4,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 19,
@@ -198,10 +202,11 @@
         "xp": 12000,
         "hitDice": {
             "description": "5d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 5,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 5,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 17,
@@ -227,10 +232,11 @@
         "xp": 25000,
         "hitDice": {
             "description": "6d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 6,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 6,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 17,
@@ -256,10 +262,11 @@
         "xp": 50000,
         "hitDice": {
             "description": "7d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 7,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 7,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 17,
@@ -285,10 +292,11 @@
         "xp": 100000,
         "hitDice": {
             "description": "8d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 8,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 8,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 17,
@@ -314,10 +322,11 @@
         "xp": 200000,
         "hitDice": {
             "description": "9d6",
-            "modifierBonus": true,
+            "note": null,
+            "count": 9,
+            "dieType": 6,
             "bonus": 0,
-            "amount": 9,
-            "dieType": 6
+            "modifierBonus": true
         },
         "thac0": {
             "value": 14,
@@ -342,11 +351,12 @@
         "level": 10,
         "xp": 300000,
         "hitDice": {
-            "description": "9d6 + 1",
-            "modifierBonus": false,
+            "description": "9d6+1*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 6,
             "bonus": 1,
-            "amount": 9,
-            "dieType": 6
+            "modifierBonus": false
         },
         "thac0": {
             "value": 14,
@@ -371,11 +381,12 @@
         "level": 11,
         "xp": 400000,
         "hitDice": {
-            "description": "9d6 + 2",
-            "modifierBonus": false,
+            "description": "9d6+2*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 6,
             "bonus": 2,
-            "amount": 9,
-            "dieType": 6
+            "modifierBonus": false
         },
         "thac0": {
             "value": 14,
@@ -400,11 +411,12 @@
         "level": 12,
         "xp": 500000,
         "hitDice": {
-            "description": "9d6 + 3",
-            "modifierBonus": false,
+            "description": "9d6+3*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 6,
             "bonus": 3,
-            "amount": 9,
-            "dieType": 6
+            "modifierBonus": false
         },
         "thac0": {
             "value": 14,
@@ -429,11 +441,12 @@
         "level": 13,
         "xp": 600000,
         "hitDice": {
-            "description": "9d6 + 4",
-            "modifierBonus": false,
+            "description": "9d6+4*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 6,
             "bonus": 4,
-            "amount": 9,
-            "dieType": 6
+            "modifierBonus": false
         },
         "thac0": {
             "value": 12,
@@ -458,11 +471,12 @@
         "level": 14,
         "xp": 700000,
         "hitDice": {
-            "description": "9d6 + 5",
-            "modifierBonus": false,
+            "description": "9d6+5*",
+            "note": "* Modifiers from CON no longer apply.",
+            "count": 9,
+            "dieType": 6,
             "bonus": 5,
-            "amount": 9,
-            "dieType": 6
+            "modifierBonus": false
         },
         "thac0": {
             "value": 12,
